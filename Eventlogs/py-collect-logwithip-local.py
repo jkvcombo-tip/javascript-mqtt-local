@@ -18,7 +18,7 @@ def run_powershell_script(script_name):
 
 if __name__ == "__main__":
     # Specify the name of your PowerShell script
-    script_name = "ExportSystemEventLog.ps1"
+    script_name = "ps-collect-logwithip-local.ps1"
 
     # Call the function with the script name
     run_powershell_script(script_name)

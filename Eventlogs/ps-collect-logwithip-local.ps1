@@ -1,4 +1,5 @@
 # Retrieve all events from the System event log
+#PowerShell Script
 $events = Get-WinEvent -LogName System
 
 # Define the path to the folder
